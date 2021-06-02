@@ -93,3 +93,8 @@
       text-align: left;
       padding-right: 25px;
   }
+
+  hr {
+      border-top: 0;
+      border-bottom: black 1px solid;
+  }
