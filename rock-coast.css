@@ -51,8 +51,45 @@
   .card {
     color: white;
     padding: 16px;
-    text-align: justify;
+    margin: 5px;
+    /* text-align: justify; */
     background-color: #FE8D3F;
     border-radius: 10px;
     font-size: normal;
+    width: 200px;
+  }
+
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .container1 {
+      display: flex;
+      justify-content: space-between;
+      text-align: justify;
+      /* border: 2px solid green; */
+  }
+
+  .center {
+      text-align: center;
+  }
+
+  .left {
+      text-align: left;
+      width: 75px;
+      margin-left: 5px;
+      /* border: 1px solid black */
+  }
+
+  .right {
+      text-align: left;
+      width: 85px;
+      padding-right: 15px;
+      /* border: 1px solid red */
+  }
+
+  .prod_desc {
+      text-align: left;
+      padding-right: 25px;
   }
