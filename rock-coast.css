@@ -1,0 +1,58 @@
+
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+      background-color: #708090;
+      height: 150px;
+  }
+
+  .logo {
+      float: left
+  }
+
+  ul {
+      float:left;
+      background-color: white;
+      height: 35px;
+      border-radius: 2%;
+      align-self: center;
+  }
+
+  li {
+      float: left;
+      list-style-type: none;
+  }
+
+  main {
+      background-color: white;
+      border-radius: 16px;
+      padding-top: 1px;
+      padding-left: 10px;
+      margin: 10px;
+  }
+
+  h2 {
+      color: #FE8D3F;
+      letter-spacing: .6rem;
+      font-weight: 500;
+      margin-top: 15px;
+  }
+
+  h4 {
+      text-align: center;
+  }
+
+  .card {
+    color: white;
+    padding: 16px;
+    text-align: justify;
+    background-color: #FE8D3F;
+    border-radius: 10px;
+    font-size: normal;
+  }
