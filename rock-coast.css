@@ -20,7 +20,7 @@
       float:left;
       background-color: white;
       height: 35px;
-      border-radius: 2%;
+      border-radius: 2px;
       align-self: center;
   }
 
@@ -97,4 +97,12 @@
   hr {
       border-top: 0;
       border-bottom: black 1px solid;
+  }
+
+  a {
+      all:unset
+  }
+
+  a:hover {
+      color: blue
   }
