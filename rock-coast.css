@@ -8,32 +8,40 @@
   }
 
   header {
+      display:flex;
       background-color: #708090;
       height: 150px;
+      margin-top: auto;
   }
 
-  .logo {
-      float: left
+    .logo {
+        height: 150px;
+        float: left
   }
 
-  ul {
-      float:left;
+  .navbar {
       background-color: white;
-      height: 35px;
-      border-radius: 2px;
-      align-self: center;
+      height: 45px;
+      width: 50%;
+      border-radius: 5px;
+      margin-top: 45px;
+      margin-left: 45px;
+      max-width: 500px;
   }
 
-  li {
+  a {
+        all:unset; 
       float: left;
-      list-style-type: none;
+      color: black;
+      margin: 8px 15px;
+      padding: 4px; 
   }
 
   main {
       background-color: white;
       border-radius: 16px;
       padding-top: 1px;
-      padding-left: 10px;
+      padding-left: 12px;
       margin: 10px;
   }
 
@@ -51,8 +59,7 @@
   .card {
     color: white;
     padding: 16px;
-    margin: 5px;
-    /* text-align: justify; */
+    margin: 10px;
     background-color: #FE8D3F;
     border-radius: 10px;
     font-size: normal;
@@ -99,10 +106,9 @@
       border-bottom: black 1px solid;
   }
 
-  a {
-      all:unset
-  }
-
   a:hover {
-      color: blue
+      background-color: #e7e5e7;
+      border-radius: 5px;
+      border: .5px solid grey;
+      cursor: pointer;
   }
